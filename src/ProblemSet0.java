@@ -14,9 +14,9 @@
  * questions, and fix your mistakes. It's the only way to get good at programming.
  */
 
-Public Class PSet0 {
+public class ProblemSet0 {
 
-    public void Main(String args) {
+    public static void main(String[] args) {
 
         /*
          * Exercise 1.
@@ -24,7 +24,7 @@ Public Class PSet0 {
          * Print a message to the console.
          */
 
-        System.out.println("Hello, world! Am I a programmer yet?");
+        System.out.println("\nHello, world! Am I a programmer yet?\n");
 
         /*
          * Exercise 2.
@@ -38,7 +38,7 @@ Public Class PSet0 {
         System.out.println("######## #####  #        ########");
         System.out.println("#      # #      #               #");
         System.out.println("#      # #      #               #");
-        System.out.println("#      # #      ######## ########");
+        System.out.println("#      # #      ######## ########\n");
 
         /*
          * Exercise 3.
@@ -46,7 +46,7 @@ Public Class PSet0 {
          * Print a quoted message to the console.
          */
 
-        System.out.println(" \"The answer's quite simple\", the professor said. \"Just think outside the box!\" ");
+        System.out.println(" \"The answer's quite simple\", the professor said. \"Just think outside the box!\" \n");
 
         /*
          * Exercise 4.
@@ -75,7 +75,7 @@ Public Class PSet0 {
          * Print a square of text to the console.
          */
 
-        System.out.println("H E L L O \nE \t \tA\nL \t \tP\nL \t \tC\nO A P C S");
+        System.out.println("H E L L O \nE \t \tA\nL \t \tP\nL \t \tC\nO A P C S\n");
 
         /*
          * Exercise 7.
@@ -96,7 +96,7 @@ Public Class PSet0 {
         System.out.println("/    \\ /    \\ /    \\");
         System.out.println("\\    / \\    / \\    /");
         System.out.println(" \\  /   \\  /   \\  /");
-        System.out.println("  \\/     \\/     \\/");
+        System.out.println("  \\/     \\/     \\/\n");
 
         /*
          * Exercise 9.
@@ -104,7 +104,7 @@ Public Class PSet0 {
          * Print an encouraging message to the console.
          */
 
-        System.out.println("You're almost done with your first problem set...");
+        System.out.println("You\'re almost done with your first problem set...\n");
 
         /*
          * Exercise 10.
@@ -112,7 +112,8 @@ Public Class PSet0 {
          * Print a plus sign to the console.
          */
 
-        System.out.println("\n\t+---+\n\t|\t|");
+        System.out.println("\t+---+\n\t|\t|");
         System.out.println("+---+\t+---+\n|\t\t\t|\n+---+\t+---+");
         System.out.println("\t|\t|\n\t+---+\n");
+}
 }
